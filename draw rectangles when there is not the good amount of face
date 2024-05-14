@@ -76,3 +76,6 @@ print(f"counter_correct: {counter_correct}")
 print(f"counter_different: {counter_different}")
 print(f"counter_doesnt_exist: {counter_doesnt_exist}")
 
+#counter_correct: 601
+#counter_different: 207
+#counter_doesnt_exist: 126
