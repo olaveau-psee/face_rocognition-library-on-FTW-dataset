@@ -37,5 +37,5 @@ for image_name in images_list:
     except Exception as e:
         print(f"ERROR {image_name}: {e}")
 
-    # mistakes for the following images, only true negative (faces missing) no false positiv (sometimes it is the same picture) : 432, 576, 65, 130, 726, 422, 423, 414, 255, 389,247, 843, 72, 407, 805, 408
+    # mistakes for the following images, only true negative (faces missing) no false positive (sometimes it is the same picture that is several times in the dataset) : 432, 576, 65, 130, 726, 422, 423, 414, 255, 389,247, 843, 72, 407, 805, 408
 
